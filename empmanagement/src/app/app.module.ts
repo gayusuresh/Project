@@ -9,7 +9,7 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
 import {Route,RouterModule,Routes} from '@angular/router';
 import { AddEmpComponent } from './components/add-emp/add-emp.component';
 import { SearchComponent } from './components/search/search.component'
-const routes:Routes=[{path:'',component:WelcomeComponent},{path:'employees',component:EmpListComponent},{path:'empform',component:AddEmpComponent},{path:'updateEmp/:id',component:AddEmpComponent}]
+const routes:Routes=[{path:'',component:WelcomeComponent},{path:'employees',component:EmpListComponent},{path:'empform',component:AddEmpComponent},{path:'updateEmp/:id',component:AddEmpComponent},{path:'search/:ename',component:EmpListComponent}]
 @NgModule({
   declarations: [
     AppComponent,
