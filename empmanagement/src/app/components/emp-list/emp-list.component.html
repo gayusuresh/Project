@@ -1,0 +1,43 @@
+<div class="main-content">
+    <div class="section-content section-content-p30">
+        <div class="container-fluid">
+            
+            <div class="row">
+              <table class='table table-bordered'>
+                <thead>
+                    <tr class='table-dark'>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Job</th>
+                        <th>Salary</th>
+                        <th>commission</th>
+                        <th>Action</th>
+                    </tr>
+            
+                </thead>
+                <tr >
+                    <td>12</td>
+                    <td>Smith</td>
+                    <td>Clerk</td>
+                    <td>$2500.00</td>
+                    <td>12.3</td>
+                </tr>
+                <tr *ngFor="let temEmp of employees">
+                    <td>{{temEmp.id}}</td>
+                    <td>{{temEmp.ename}}</td>
+                    <td>{{temEmp.job}}</td>
+                    <td>{{temEmp.sal}}</td>
+                    <td>{{temEmp.comm}}</td>
+                    <button type="button" class="btn btn-md btn-success" (click)="updateEmp(temEmp.id)">Update</button>
+                    <button type="button" class="btn btn-md btn-danger" (click) = "deleteEmp(temEmp.id)">Delete </button>
+
+
+                </tr>
+
+                
+            </table>
+            <button class="atu-btn-submit btn btn-info" (click) = "addEmp()" >Add Employee</button>
+            </div>
+        </div>
+        </div>
+        </div>
