@@ -1,0 +1,1935 @@
+
+
+
+
+Computer:
+
+Digital machine.(0 and 1)(low level language)
+
+
+Human:high level lanaguage(c,c++,java,python,)
+
+
+highlevel(java)=>      interface(compiler/interpreter)=> computer(low level)=>o/p
+
+
+Java:compiler
+1)high level language.
+2)compiler language
+3)platform indepenent.(Write once we can run anywhere(any os)(windows,linux,mac)
+
+c++=>only  windows  os=>platform dependent
+
+4)compiler/interpreter
+
+compiler:combine all code and execute at a time(fast)
+
+interpreter:line by line.(slow)
+
+5)object oriented programming language.(c++ )
+
+class,object,inheritance,encapsulation,abstraction,polymorphism
+
+=========================================================================================
+History:
+
+James Gosling
+
+1995 
+
+sun micro system
+ 
+under taken by oracle
+
+first name=>Oak
+
+team name:green team.
+
+=======================================================================================
+JDK:Java devlopment kit
+used to run java code
+Write the java code:
+1)Notepad:Tools
+2)Eclipse IDE
+
+===========================================================
+Syntax:
+
+class classname =>smallest unit of java code
+{
+
+ public static  void main(String []args)=>main function or method
+{
+System.out.println("hello");
+}
+}
+
+compile:javac classname.java
+Run:java classname
+
+
+public: access modifier we can anywhere.
+
+static:without object any function
+
+void:return type 
+
+main:name of the function
+
+String=>accept any type data(4,g,hello,4.5)
+
+[]args=>commandline input
+==================================================
+
+System=>base class of java
+
+out=>write
+print=>display the data
+println=>nextline
+===================================
+
+Java Corporation:
+
+JDK:java develeopment envt(javac ,java)+Runtime envt(JRE)
+JRE:Java Runtime envt=>Run time envt(JVM)=>java virtual machine 
+
+
+Java =>compiler(java code to byte code)
+     =>Interpreter(byte code to machine code)
+
+Compilation Process :java code
+source code(.java code)====>compiler=>byte code(.class file)=>
+JVM=>class loader=>byte code  verifier=>Execution engine(interpreter)=>o/p(machince code)
+=======================================================================================
+
+Eclipse IDE:
+===============Integrated Development Envt:
+
+1)automatic compile/run
+2)automatic debug
+
+=============================================================
+variables and Datatypes:
+
+=======================
+
+variable :allocate the memory:store the value
+
+Datatype:size of an memory    as well as type  of data
+
+1 byte=8 bits=> 1 byte
+
+int      4 bytes.32 bits(78,90,1000)
+
+byte     1 byte                 89,90
+short    2 byte
+long     8 bytes
+
+boolean    1 bit  true/false
+
+float      4 bytes  (7.4,6.7,9.0)
+
+char      2 byte 16 bit   'j','k'
+
+String                   "hello"
+
+double     8 byte             9.8
+======================================================================================================
+WAP to calculate average of three number?
+
+WAP to calculate area of cirlce?
+WAP to calculate area of rectangle?
+
+WAp to calculate Student percentage:
+
+id
+name
+m1,m2,m3,m4,m5
+total
+percentage
+================================================
+
+WAP to calculate semiperimeter of triangle?
+=============================================
+s=(a+b+c)/2;
+
+Runtime input:
+
+Scanner class=>Scanner sc=new Scanner(System.in);
+
+import java.util.Scanner;
+
+
+collection of classes and interfaces=>package
+
+
+int :
+
+     sc.nextInt();
+
+double:
+    sc.nextDouble();
+
+byte:
+    sc.nextByte();
+
+String:
+    sc.next();
+
+char: 
+    sc.next().charAt(0);
+
+boolean:
+
+   sc.nextBoolean();
+========================================================================
+
+WAP to swap two numbers?(Using Scanner)
+========================
+
+input:
+x=4
+y=8
+
+o/p:
+x=8
+y=4;
+==========================================================================
+Using Scanner:
+WAP to calculate Speed(apply formula)
+WAP to calculate BMI(bmi=weight/(height*height)
+WAP to convert inches to meters(use formula)
+
+inches*0.0234;
+
+=============================================
+Type casting:
+=============
+convert one type to another
+
+two types:
+
+widening:byte =>short=>int=>long
+   float=>double
+narrowing:
+double =>int(4 byte)=>short=>byte
+===============================================
+
+
+non-primitive datatypes:
+========================
+String s="hello";//literal   two or more literal have same data its share memory
+
+String s=new String("hello");//object.
+
+import java.lang.*;=>String=>inbuilt package.
+
+
+String:In built methods:
+
+=>length()
+=>charAt();
+=>concat();
+=>equals();
+===================================================================================
+WAP to get the username,pwd using string compare the username and pwd its equal or not
+sc.next();
+====================================================================================
+
+WAP TO get firstname,lastName am expect output=>fullname
+
+WAP to get String to change the cases?
+===================================================================================
+Array:used to store the collection of similar data(int,float,double,String)
+======
+
+int a=10
+
+int a[]={12,10,34,5,6};
+WAP to store char array?
+
+SingleDimentional Array:
+==========================
+int a[]=new int[size];
+===================================================================
+Two dimentional Array:
+=====================
+
+int arr[][]=new int[row][col];
+
+===================================================
+class:smallest unit java code
+
+class:1)objectoriented language one of the main module
+
+
+2)template or blue print.
+3)use class we can access multiple real world objects.
+
+
+Mobile:
+=======
+     ram
+     rom
+     processor
+     color
+     os
+
+   communication()
+   browsing()
+   game()
+
+
+class Mobile
+{
+
+
+}
+=========================================================
+
+class:Student
+
+id
+name
+m1,m2,m3,m4,m5
+percentage()
+{
+}
+==========================
+StudentMain:
+
+2 objects:
+================================
+
+Employee:
+id
+name
+salary
+address
+
+annualSalary()
+============================
+EmployeeMain:
+3objects
+==============================
+Operators:
+==========
+1)Arithmetic=> (+,-,*,/,%)
+WAP to get two inputs using scanner and calculate all the arithmetic operations?
+2)Assignment=> +=,-=,*=,/=
+3)Logical  &&,||,!
+4)Bitwise &,|,^,~,<<,>>
+5)Relational  <,>,<=,>=,==
+6)ternary operator
+7)instance of 
+8)Unary   post++,post--,--pre,++pre
+================================
+
+Assignment:
+x=2,y=4;
+x+=y
+x=2+4=6
+x=x+y
+
+y+=x;
+
+y=y+x 4+2=6
+y=6
+=================================================================
+
+unary operator:
+===============
+
+post increment  i++  i=i+1
+
+pre increment   ++i
+
+
+pre decrement   --i  i=i-1;
+
+
+post decrement   i--
+
+
+post incremet  i=3
+
+      i++        Assign        increment
+                   3               4
+
+pre increment   increment       assign
+                  4              4
+
+
+post decrement    Assign       decrement
+                     3              2
+
+
+pre decrement     decrement      Assign
+                     2            2
+
+x=2;
+
+x++      assign      increment
+           2            3
+
+x--      3              2
+
+int z=  (x++)  +(x--)
+          2+3=5
+
+
+x=4
+--x    decrement     assign
+         3             3
+
+x++     Assign     increment
+          3          4
+int z=(--x)  +(x++)
+        3+3=6
+
+x=2;
+int z=(x++)+(x--)+(--x)+(++x);
+        2+3+1+2=8
+
+
+x++  Assign             increment
+      
+       2                 3
+
+x--  Assign          decrement
+     
+       3               2
+
+
+--x   decrement      Assign
+        1             1
+++x  increment      Assign
+        
+       2             2
+
+
+
+
+int x=1;
+
+
+y=(--x)+(x--)+(x++)+(++x);
+     
+     0+0+-1+1=0
+
+--x    decrement    Asign
+          0           0
+
+x--    Assign       decrement
+
+        0            -1
+
+x++   Assign        increment
+        -1            0
+
+++x     in         Assign
+         1           1 
+============================================================================
+
+Ternary Operator:
+
+?:
+
+
+int x=4,y=3;
+
+
+int z=x<y?x:y
+      4<3?4:3=>3
+ ========================
+
+instanceof:
+===========
+
+
+9999  =>four digit
+10000  99999
+===========================
+Bitwise operator:
+=================
+&  and operator
+
+|  or operator
+
+^   xor operator
+
+~  complement operator
+
+left Shift operator
+
+Right Shift operator
+============================================
+
+int x=10   y=11
+
+
+int z= x&y; o/p:10
+
+z=?
+10===1010
+11===1011  &
+==============
+      1010====10
+=====================
+
+x=8,y=10;
+
+
+8====1000   &
+10===1010
+===============
+     1 0 0 0=======8
+=============
+Task:
+
+x=12====01100
+                 &
+y=20====10100
+  ===============
+        0  0 1 00=======4
+
+int z=x&y;
+==================================================================
+
+BitWise | or operator:
+
+
+=======================
+
+x==10   ====1010
+                  |
+y==11   === 1011
+
+ =================================
+             1 0 11=====================11
+=================================
+=========================================================
+
+x===25==================11001
+
+y===20================= 10100
+================================
+       z=x|y                11101=====29
+=============================
+
+BitWise Xor operator :^
+
+x=10   1010
+y=11   1011
+================================^
+       0001=>1
+=================================
+
+
+x=18=====================010010
+                                ^
+y=35=====================100011
+
+z=x^y==================================
+                         110001=====49
+
+=============================================
+Bit wise complement (~)
+
+1====0
+
+0=====1
+
+input :35    =>-+1==-36
+
+x=35
+
+int z=~35=====   -36
+
+42==-43
+
+12===-13
+
+11=-12
+
+
+35===================100011
+=====================================
+                     011100               1s complement
+=================================================================
+
+36================100100=>binary
+
+====================================== 1s complement
+                  011011=>
+=====================================2s complement
+                       1+
+======================================
+                      011100
+============================================
+
+35===011100  =>-36====011100
+=================================================================================
+TASK:
+x=42=======-43
+
+
+42=================101010
+                          ~
+                   010101=>1s complement
+
+
+
+43  ==============101011
+                  010100          1s complement
+                       1
+===============================
+                  0 10 101   2scomplemet 
+
+
+=============================
+
+
+42===-43
+============================================================================
+
+
+BitWise left Shift:
+===================
+
+<<
+int  x=2
+
+
+int z=x<<2?
+
+2======0010=========================>u have to remove two digit in left side
+
+       10======u have to componsate again add two digit in right side
+       1000===>8
+
+
+===============================================================================
+
+x=8
+                           8===============00001000
+int z=x<<2                    00100000=32
+                                   
+?
+====================================================================================
+
+BitWise right shift:
+=====================
+x=8>>2
+
+8====00001000
+=>u have to remove two zero in right side
+
+000010
+u have to componsate add two zero in left side
+0000010=====2
+========================================================
+
+int x=10     00001010
+
+x>>2         000010
+            00000010=2
+======================================================
+
+Conditional Statement:
+========================
+if u want to check the condition =>control flow statement:
+
+if()//block of statement
+{
+
+}
+
+else if()
+{
+}
+else
+{
+}
+1.WAP to check the person is eligible for vote?
+2.WAP to check the number is positive or Negative?
+3.WAP to get the nch,nca,based on calculate student eligible for exam?
+nch=>no of classes held
+nca=>no of classess attended
+percentage:>=80=>eligible exam
+<80=>NotAllow to sit in exam
+
+4.WAP to get the three inputs and compare and print the greatest number?
+
+5.WAP to get year check the year is leap year?
+==========================================================================
+Nested if:
+
+=========
+
+if()//outer if outer if will be true 
+{
+if()//inner if is true its eexcute the data
+{
+
+}
+else
+{
+}
+}
+else
+{
+}
+=========================================================
+
+Switch Example:
+===================
+===>similar to else if
+====>in our code i want to apply more conditions we have to choose the switch blocks
+=====>
+
+switch(input)
+{
+case 1:
+break;
+case 2:
+break;
+default:
+}
+======================================================================================
+
+WAP to get the month :1 based on the month print the january like month names
+using switch example?
+
+   o/p:jan
+2:feb
+================================================================================
+
+WAP to give alphabets based on alphabets u have to print the o/p:
+
+input:a
+
+o/p:applephone
+
+
+char alphabet=sc.next().charAt(0);
+switch(alphabet)
+{
+case 'A':
+}
+=======================================================================
+
+WAP to print 1 to 10
+Loops:(iteration)(set of instruction execute repeatedly)
+========
+
+we can print collection of data with some  condition.whether ur condition is true
+loop is execute continously ,suppose condition is false loop end ...
+
+types:
+While
+dowhile
+for
+
+
+while:
+
+intialization
+condition checking
+incrementation
+
+WAP to to print using while 100 to 1;
+
+====================================================================================
+
+WAP to print natural numbers:
+input:5
+
+o/p:
+1
+2
+3
+4
+5
+===============================================================================
+WAP to print even natural numbers:
+input:5
+
+o/p:
+2
+4
+===============================================================================
+WAP to print odd natural numbers:
+input:5
+
+o/p:1
+3
+5
+=============================================================================
+Dowhile:
+=========
+
+1)initialization
+2)incrementation
+3)condition check
+
+1)WAP to print factor of given number?(do while)
+
+6=>1,2,3,6
+5=>1,5
+7=>1,7
+3=>1,3
+12=>1,2,3,4,6,12
+==================================================================================
+for loop:
+===========
+similar to while:
+
+intialization
+condtion check
+incrementation.
+
+for(int start=1;start<=num;start++)
+{
+}
+
+================================================================================
+
+WAP  to print the factorial of given number:(for loop)
+
+5
+
+1*2*3*4*5=120
+
+3
+1*2*3=6
+
+================================================================
+WAP to caluclate sum of n numbers?
+
+input:5
+
+sum=1+2+3+4+5=15
+===================================================================
+
+Nested if:
+if()
+{
+if()
+{
+}
+}
+Nested for loop:
+==================
+
+for()
+{
+for()
+{
+}
+}
+===============================================================================
+
+WAP to check the input is prime number?
+prime number:5,7,11,13,
+=========================================================
+
+Nested For loop:
+
+=======================
+
+outer condition is true=>its move inner condition=>its true=>sop(print the data)
+=>incrementation=>check the condtion(suppose your condition is false)=>its move to 
+outer increment.
+
+for()
+{
+for()
+{
+}
+
+}
+
+WAP tp print
+
+ABC
+ABC
+ABC
+
+
+AAA
+BBB
+CCC
+
+Task:
+=====
+*
+**
+***
+****
+*****
+=======================================================================
+
+Task:
+1
+12
+123
+1234
+12345
+==================================================================================
+
+task:
+1
+22
+333
+4444
+55555
+======================================================================================
+
+1
+23
+456
+==============================================================================
+break:
+
+break skip the whole block ...
+
+continue:
+skip the particular statement
+===================================================================================
+Task:
+input:1
+o/p:large
+
+do you want to continue
+
+y
+
+input:2
+medium
+do you want to continue
+
+y
+
+input:3
+
+small
+===========================================================================
+Array:
+
+WAP to print collection of char data?
+
+
+WAP to calculate sum of array:
+
+size:
+
+3
+
+input:
+3
+2
+3
+output:
+3+2+3=8
+===========================================================
+Array copy:
+
+int a[]={12,13,14,15};
+==symbol=>copy
+
+clone()=>method
+
+object class=>clone();
+
+
+shallow copu=>it doesnot create separate  memory
+deep copy=>allocate separate memory.
+===================================================================================
+
+WAP to get the size and input in runtime for two-d array?
+
+the u have to display diagonal elements?
+
+input:
+
+ 1 2
+ 3 4
+
+o/p:
+  1
+    4
+
+================================================================================================
+
+Shallow copy vs Deep copy:
+=========================
+shallow copy:
+int a[]={2,3,4};
+
+int b[]=a;
+
+
+shallow copy:both array points same memory.(if u do any changes in your original array that will
+affected in your copied array also.
+
+Deep Copy:
+==============
+
+int b[]=a.clone();
+array create the separate memory for original as well as copy so it will not affect 
+your original content...
+========================================================================================
+String :
+============
+non-primitive datatypes:
+========================
+String s="hello";//literal   two or more literal have same data its share memory
+
+String s=new String("hello");//object.
+
+import java.lang.*;=>String=>inbuilt package.
+
+
+String:In built methods:
+
+=>length()====>checks the length
+=>charAt();=>index based character
+=>concat();=>jointhe data
+=>equals();=>compare the strings
+===================================================================================
+WAP to get the username,pwd using string compare the username and pwd its equal or not
+sc.next();
+====================================================================================
+
+WAP TO get firstname,lastName am expect output=>fullname
+
+WAP to get String to change the cases?
+===================================================================================
+=>indexOf=>based on character=>give the index
+=>toLowerCase,toUpperCase()=>change the cases
+=>startwith,endwith=>check the character start/end
+=>compareTo=>compare the string
+=>equal==0
+=>first string ascii value bigger than second string =>postive value
+>first string ascii value less than second string =>negative value
+String is immuatble=>we cannot change the original data.
+==================================================================
+
+String Buffer====>synchronized means very slow vs Builder  ======non synchronized =>fast
+===========================
+
+mutable==>if u do any changes that will be updated in your original memory
+
+
+=====================================================================================
+
+Enum:special type of datatype.similar class,
+=>used to declare lot of constants 
+========================================================
+class:smallest unit java code
+
+class:1)objectoriented language one of the main module
+
+
+2)template or blue print.
+3)use class we can access multiple real world objects.
+
+
+Mobile:
+=======
+     ram
+     rom
+     processor
+     color
+     os
+
+   communication()
+   browsing()
+   game()
+
+
+class Mobile
+{
+
+
+}
+=========================================================
+
+class:Student
+
+id
+name
+m1,m2,m3,m4,m5
+percentage()
+{
+}
+==========================
+StudentMain:
+
+2 objects:
+================================
+
+Employee:
+id
+name
+salary
+address
+
+annualSalary()
+============================
+EmployeeMain:
+3objects
+==============================
+Method:
+==========
+1.process our data
+2.void =>return type of the method
+3.methodname
+void communication()//without return type
+{
+Sysout(res);
+}
+
+String communication()
+{
+return res;
+} 
+
+class:template or blue print using this template we can access multiple objects
+
+object:real time entity,or instance(refernce) of the class
+=========================================================================
+Task:
+Bill:
+billnum;
+costperunit;
+noofunit;
+calculateBill()
+BillMain
+===========
+2 objects:
+
+int a=90
+
+===================================================================================
+
+toString()
+:
+using this method we can print the objects data in a string format.
+
+WAP to calculate addtion of two numbers using method?
+Circle:
+radius:
+default
+parameter
+double area();
+toString();
+
+main:
+2 objects:
+=============================================================================
+Task:
+Calculator:
+x
+y
+
+add()
+sub()
+mul()
+div()
+toString()
+main:
+
+2 objects
+============================================================================
+
+Constructor:
+===========
+special type of method..
+use is intialize the data..(int x=45)
+
+Method                                        Constructor
+1.method have return type                  1.deoenot have return type
+
+ void or int 
+
+2.method name we can create any name      2.name should same as the class name 
+
+3.we should call the method using object  3.autimatically invoke.
+
+==================================================================================
+
+types:
+defaultconstructor
+parameterized constructor
+
+=============================================================
+
+Methods:process our data
+========
+1)return type of the method
+2)name of the method
+3)we should call the method using object.
+
+types:
+without return type method:void add()
+
+with return type :int add()
+
+without parameter :int add()===>empty parameter
+
+with parameter:int add(int i,int y)
+================================================================================================
+WAP to calculate BMI using with parameter with return type method?
+
+Access Specifier:
+=================
+
+we are going to set the accessing limit of variable,methods,class.
+
+
+private:with in class same package
+protected:same class same package,different class same package
+public:same class same package,different class same package
+public:same class same package,Different class different package
+
+default:
+            same class same package    different class same package   Different class different package
+
+private          Yes                        NO                              NO
+
+
+protected       Yes                        YES                             NO
+
+
+
+public         YES                           YES                           YES
+
+default:     Yes                           YES                             NO
+============================================================================================
+variables:private(security)
+
+methods=>protected,public
+
+class=>public
+===================================================================================
+setter and getter methods:Encapsulation
+==========================
+setter :we can store means initilize the value for private data=>store the data
+
+getter:print the private in different class=>retrieve the data
+
+public void setId(int id)
+{
+this.id=id;
+}
+
+public int getId()
+{
+return id;
+}
+this keyword:
+=============
+=>mainly used to identify the class variable...
+=>wheneve u create the class variable and temp variable  name will be same u have to
+highlight our class variable
+ using this keyword
+===========================================================================
+OOPS:
+class
+object
+encapsulation
+Accessspecifier
+Methods
+inheritance:
+abstraction
+polymorphism(overloading)(overriding)
+==========================================================================
+Method Overloading:
+=====================
+same method name different parameters in same class is called the overloading
+
+WAP to calculate area()
+=>1.method=>areaof circle
+=>2.calculate area of rectangle
+=>3.calculate area of triangle
+main:
+call =>3 methods
+===============================================================================
+static keyword:
+===============
+static variable 
+static method=====access without object.we can call through classname
+static block===jvm give first preference of static block only...
+variables:
+============
+
+local :we can use only inside methods and block(while,for)
+
+instance :inside the class and outside the method.(heap memory)
+
+static:store in main memory it share the data for all objects and it take the update 
+data in memory
+=================================================================================
+
+Inheritance:
+============
+parent class(base class) properites and behaiviour 
+we inherit or acquire to the child class(sub class) is called
+inheritance..
+super:
+========:take all the property and method in base class.
+Use:resuablity...
+Types:
+======
+single
+multilevel
+multiple
+Hierachical
+Hybrid
+
+extends =>keyword
+
+Single:https://collabedit.com/4qd9b
+Multilevel :https://collabedit.com/s4aku
+
+multiple:java doesnot support inheritance.but we achieve through interface concept
+https://collabedit.com/u7vfg
+
+we cannot inherit two classes at a time in one class=>so java not allow multiple 
+
+
+==============================================================================
+Hierachical:
+https://collabedit.com/myw2k
+https://collabedit.com/dymkq
+player:
+=======
+
+jersyno
+pname
+address
+==============================================================================
+HYbrid Inheritance:
+===================
+java doesnot support Hybrid inheritance because it is a 
+combintion Hierachical and Multiple
+https://collabedit.com/yq5hr
+============================================================
+Overriding:
+Same method name in two different class but child class implementation 
+will be changed
+
+overloading:                    overriding   or Dynamic or runtime or late dynamic binding
+===============                  ===============
+static polymorphism
+or
+compile time polymorphism
+
+or
+early binding
+1.Same method name            1.same method name use two different class
+                                   super and sub class have same method but
+                                   implementation
+                                 will change in sub class.        
+different parameters in
+same class
+class Sample
+{
+void add()
+{
+}
+void add(int x)
+{
+}
+
+}
+static,final,private can overloaded               static ,final,private methods cannot
+                                                   overide
+https://collabedit.com/hfy4j
+==========================================================================================
+
+Abstraction:
+============
+showing essential data and hiding unwanted data.
+1)abstract class
+
+2)interface
+
+Abstract class:(90%)
+================
+
+1) we have to  create with abstract keyword
+2)have only abstract methods
+3)abstract method do not specify body.
+4)we cannot create the objects of abstract class
+5)if u want to access abstract class have  to inherit another class
+6)allow non abstract method,as well static methods
+=====================================================================================================
+
+abstract class Bird
+{
+abstract void sound();
+}
+
+
+class parrot extends Bird
+{
+void sound()
+{
+
+}
+}
+
+class Crow extends Bird
+{
+void sound()
+{
+}
+}
+class Peacock extends Bird
+{
+void sound()
+{
+}
+}
+==================================================================================
+
+Interface:100%
+==========
+1)interface start with interface keyword
+2)have method declaration(if u declare any method inside interface
+automatically internally its take abstract method)
+3)cannot create objects
+4)using implements keyword to access the interface
+5)non abstract method not allow by interface
+6)it accept static method
+7)using interface we can achieve the multiple inheritance and Hybrid 
+======================================================================================
+Exception Handling:
+=====================
+runtime error handler
+
+try===================error enclose by try
+catch=======================will be handle by catch
+throw=================userdefined exception
+throws==============optional for try and catch but throws 
+we should declare only outside 
+the methods aswell as using throws we can handle two exceptions at atime.
+finally====>whether the exception is raise or not if u want display any inforamtion u have to use finally block
+===========================================================================
+Exception:
+===========
+Throwable(base class)
+   ||
+
+Exception      Error=>user beyond the situation(error are not handle users(network failure,database overflow)
+   ||
+handle it
+||
+
+checked unchecked
+
+
+Exception:
+abnormal event that occur during the program execution..
+
+Types of exception:
+
+checked                                     unchecked
+                                            ==========
+===========
+if u are                                   if u get in runtime 
+getting in compile time         
+
+syntax error(semicolon missing,             logical error
+
+wrong classname)
+=====================================================================
+
+unchecked:
+ArithmeticException
+ArrayIndexOutOfBoundsException
+
+
+=======================================================================
+
+checked:
+========
+NoClassFoundError:
+
+Throw:userdefined Exception
+
+WAP to check the number is five digit or not?
+throw the excpetion=>not a five digit number...
+
+https://collabedit.com/d3e4h
+Task:
+Product:
+==========
+id
+name
+noofproduts
+weightofproduct
+main:
+5objects
+compare the weight of the product
+
+<200=>throw LowProductQualityException
+=========================================================================
+Collection:
+=============
+Wrapper class:convert into primitive to objects types.
+==============
+
+primitive data type:                Objects type                 
+
+int                                  Integer
+byte                                 Byte
+long                                Long
+short                              Short
+float                              Float
+double                           Double
+char                             Character
+boolean                         Boolean
+=============================================================
+
+Collection:Framework:predefined architecture.(collection of classes and interfaces)
+
+use:
+used to store the collection of objects..
+manipulation means add,update,delete,
+
+Iterface Iterable
+{
+public void iterator();
+}
+||
+
+Inteface Collection extends Iterable
+{
+//lot of abstract methods
+}
+
+Interface List extends Collection
+{
+}
+class ArrayList extends AbstractList implements List
+{
+}
+
+
+Jdk 1.5 they used non generic collection.
+ArrayList list=new ArrayList();
+		list.add(12);
+		list.add(45.3);
+		list.add('h');
+		list.add("jack");
+		list.add(34.5f);
+		System.out.println(list);
+
+in runtime they faced typecasting  issue.we store all objects at times
+
+after jdk 1.5
+generic collection
+ArrayList <generictype>list=new ArrayList<generictype();
+ArrayList <Integer>list=new ArrayList<Integer>();
+
+===========================================================================
+List:
+=====
+=>store the collection objects
+=>order manner 
+=> accept duplicates
+ArrayList:
+==============
+=>store the collection objects
+=>order manner 
+=> accept duplicates
+===all manipulation happen based on index..
+====non synchronized like multiThreaded(more than one object execute simeuntenously)
+
+=>next position
+
+add(index,element);
+remove(index)
+set(index,element);
+clone();
+size();
+contains();
+clear();
+isEmpty();
+retainAll();
+get(index);
+size();
+indexOf();
+LinkedList:
+===========
+=>store the collection objects
+=>order manner 
+=> accept duplicates
+==>manipulation happen based on node manner.
+==>previous postion and next position
+====non synchronized(more than one object execute simeuntenously)
+
+
+
+add(index,element);
+remove(index)
+set(index,element);
+clone();
+size();
+contains();
+clear();
+isEmpty();
+retainAll();
+get(index);
+size();
+indexOf();
+
+==============================================================================
+iterator():listIterator();
+==========
+1)Sysout
+2)for each loop
+3)for loop
+4)iterator();
+
+=========================================================================
+Vector:
+===similar to arraylist
+===order manner
+====duplicates
+===========store the objects
+=========Syncronized manner(its add the first object then only it will move to second 
+object(very slow)
+=======================================================================================
+Set:
+====
+will not access based on the index.
+will not use for loop
+===used to store objects
+====>we can store the objects unorder manner
+====>without duplicates we are getting result.
+
+HashSet===used to store objects
+====>we can store the objects unorder manner
+====>without duplicates we are getting result.
+==================================================
+LinkedHashSet:
+==============
+====>without duplicates we are getting result.
+===used to store objects
+
+natural order====insertion order
+=======================================
+TreeSet:implements SoredSet,Navigable ,Set
+Ascending order
+
+https://collabedit.com/bm966
+https://collabedit.com/d82v8
+
+==============================================
+Task:
+Product:
+==========
+id
+name
+noofproduts
+weightofproduct
+main:
+5objects
+===>to store inside the collection
+compare the weight of the product
+
+<200=>throw LowProductQualityException
+else
+print data
+=================================================================================
+Map:Interface
+============similar set
+=======>used to store  the objects in the key value pair
+=======>not accept the duplicates but key will not accept duplicates
+=======>unorder manner
+
+HashMap(non synchronized means multithreaded:Vs HashTable(Syncronized)
+============similar set
+=======>used to store  the objects in the key value pair
+=======>not accept the duplicates but key will not accept duplicates
+=======>unorder manner
+LinkedHashMap:natural order,insertion order
+
+TreeMap:Ascending order implements SoredMap,NavigableMap ,Map
+https://collabedit.com/un9xf
+========================================================================
+Queue:Interface:
+================
+PriorityQueue===FIFO
+Deque=============FIFO,LIFO
+
+===========================================================================
+NavigableSet:
+add();
+first();
+last();
+poolfirst();
+poollast();
+ceiling
+floor();
+higher();
+lower();
+==============================================================================
+Sorting:List:
+
+=============
+
+Collections.sort();===Integer,FLoat,Character===we can use directly
+
+Collections.sort();====>Comparable Interface u have to implements Template class
+Interface Comparable
+{
+compare();
+}
+Set:
+====
+Sort:TreeSet=====Integer,Float,Double
+Employee or Student objects:TreeSet...as well as Comparable Interface template class
+https://collabedit.com/djt36
+https://collabedit.com/nhdm8
+
+Map:sort:
+TreeMap:both object as well as Integer
+==================================================================
+Comparable:used to sort the data based on one property
+Comparator:used to sort the data based on many property
+https://collabedit.com/bdpw7
+
+Set:
+https://collabedit.com/ce378
+=======================================================================
+Packages:
+=========means(collection of classes andinterfaces)
+
+different:
+system:
+import java.util.*;===collection,Scanner,Date
+import java.io.*====Filehandling
+import java.sql.*;=====Database
+import java.lang.*;==================basics packages in java
+import java.applet.*;===================GUI /UI
+import java.awt.*;
+
+userdefined:as a user manuallu created packages called userdefined...
+
+FileHandling:I/O
+============
+import java.io.*;
+
+Write:FileOutputStream====================accept the byte
+Read:FileInputStream
+FileWriter:Write=====================accept character data
+FileReader:read
+BufferReader=================================line by line data
+Serialization:Objectoutputstream
+DeSerialization:ObjectInputStream
+====================================================================================
+Thread creation :
+================
+extends Thread:
+implements Runnable
+
+start();
+run();
+
+Life cycle:
+DemoThreads d=new DemoThreads();   
+create();
+start();
+run():execute
+sleep:some milli second suspend the process
+
+dead:terminate the dead state
+join:
+
+Syncronization:only one thread execute at a time 
+wait();
+notify();
+
+DeadLock:
+==========================================================
+Garbage collection:
+===================
+JVM :take care the process deallocating memory.
+
+
+Dealloc=====method of c
+destructor:c++
+
+================================================================
+Build Tool:
+===========
+Tool
+use:we create the project.
+Advantages:
+1)auto generated.
+2)testing
+3)compilation
+4)documention
+5)Packaging
+
+2 different types:
+1)Maven
+2)Gradle
+===================================================================================
+Junit Testing:
+===============
+
+Lambada Expression:
+==================
+Java 8
+
+class Addition
+{
+public void add(int x,int y)
+{
+Sysout(x+y);
+}
+}
+class MainDemo
+{
+psvm(String []args
+{
+Addition a=new Addition();
+
+a.add(23,45);
+}
+}
+
+Lambada Expression:(concise programming)
+=====================
+         parameter->{body of the code};
+  (int x,int y)->
+{
+Sysout(x+y);
+}
+
+Functional Interface:inside the lambada expression
+=>abstract method=>declartion of the method.
+=>default methods
+=>static methods
+=========================================================================
+
+Method Reference:
+===================  Java 7 version
+public void say()
+	{
+		System.out.println("hello");
+	}
+
+	public static void main(String[] args) 
+	{
+		DemoMain d1=new DemoMain();
+		d1.say();
+
+}
+
+Java 8
+public void say()
+	{
+		System.out.println("hello");
+	}
+
+	public static void main(String[] args) 
+	{
+		DemoMain d1=new DemoMain();
+	    Demo d=d1::say;//java 8 method reference
+syntax:
+functionalinterface ref=instance obeject::methodname;
+
+}
+
+It's called a "method reference" and it's a syntactic sugar for expressions like this:
+
+numbers.forEach(x -> System.out.println(x));
+Here, you don't actually need the name
+ x in order to invoke println for each of the elements.
+ That's where the method reference is helpful -
+ the :: operator denotes you will be invoking the println method with a parameter,
+ which name you don't specify explicitly:
+
+numbers.forEach(System.out::println);
+types:
+
+1)instance method:
+functionalinterfacename ref=obeject::methodname;
+2)static method
+functionalinterfacename ref=classname::methodname;
+
+3)constructor:
+functionalinterfaacename ref=classname::new;
+4)arbitary method ref:
+String::methodname
+=================================================================================================
+
+Java 8 Stream:
+
+1)of
+2)foreach
+3)generator
+=============================================================================================
+
+Design Pattern:
+===============common topic for all object oriented programming language.
+=>well proved solution.
+
+Types:
+1)creational Design Pattern==>Singleton,Factor,prototype
+2)Structural ============class,object=>combine(decorator,facade)
+3)Behaiviour===================(1.chainPattern,2.Iterator)
+==================================================================================================
+DataBase:
+
+Types Of Information System:
+
+1)Manual Information System.
+
+2)Sequential Information:Tap,CD,pendrive
+
+3)FileBAsed Information System:
+
+4)DataBase Information System.
+1)Huge amount of data
+2)Relational database
+3)Information(structure)  vs data(1,gayathri,kknagar
+
+
+Table:
+
+id name      address
+1  gayathri  kknagar
+
+Industry:
+
+Mysql,Oracle,Sql,Sybase,Monogo db=====Common language=>SQL=>Structured Query Language
+
+DATABASE:DBMS:DataBaseManagementSystem.
+
+DataBase Creation:
+create database databasename;
+
+insert
+delete
+update
+=====================================================================
+Student:
+id
+name
+address
+marks
+=>insert 3 records
+=>update 1 student mark
+=>delete one student record
+=>show the table data
+=====================================================================
+
