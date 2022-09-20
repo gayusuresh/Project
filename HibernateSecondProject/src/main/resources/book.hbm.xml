@@ -1,0 +1,20 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+    <hibernate-mapping>
+      
+     <class name="com.entity.Book">
+      <id name="bookId">
+       <generator class="assigned"></generator>
+      </id>
+      
+      <property name="bookName"></property>
+      <property name="bookType"></property>
+      <property name="author"></property>
+      <property name="price"></property>
+      <property name="isbn"></property>
+      
+    </class>
+    
+    </hibernate-mapping>
